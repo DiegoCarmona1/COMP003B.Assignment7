@@ -10,5 +10,7 @@ namespace COMP003B.Assignment7.Models
         public string Name { get; set; }
 
         public virtual ICollection<BookAuthorModel>? BookAuthorModels { get; set; }
+
+        public int Age { get; set; }
     }
 }
