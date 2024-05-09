@@ -2,7 +2,7 @@
 
 namespace COMP003B.Assignment7.Models
 {
-    public class AuthorModel : Controller
+    public class AuthorModel
     {
         public IActionResult Index()
         {
