@@ -11,7 +11,7 @@ namespace COMP003B.Assignment7
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            //Set up Database Context
             builder.Services.AddDbContext<WebDevAcademyContext>(options =>
                 options.UseSqlServer("Name=ConnectionStrings:DefaultConnection"));
 
