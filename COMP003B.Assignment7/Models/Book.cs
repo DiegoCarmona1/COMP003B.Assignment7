@@ -2,12 +2,12 @@
 
 namespace COMP003B.Assignment7.Models
 {
-    public class BookModel
+    public class Book
     {
         public int BookId { get; set; }
         [Required]
         public string Title { get; set; }
 
-        public virtual ICollection<BookAuthorModel>? BookAuthorModels { get; set; }
+        public virtual ICollection<BookAuthor>? BookAuthors { get; set; }
     }
 }

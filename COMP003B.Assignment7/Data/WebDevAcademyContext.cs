@@ -11,8 +11,8 @@ namespace COMP003B.Assignment7.Data
         { 
         }
 
-        public DbSet<BookModel> Books { get; set; }
-        public DbSet<AuthorModel> Authors { get; set; }
-        public DbSet<BookAuthorModel> BookAuthor { get; set; }
+        public DbSet<Book> Books { get; set; }
+        public DbSet<Author> Authors { get; set; }
+        public DbSet<BookAuthor> BookAuthors { get; set; }
     }
 }
