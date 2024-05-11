@@ -40,7 +40,7 @@ namespace COMP003B.Assignment7.Controllers
                 return NotFound();
             }
 
-            ViewBag.Courses = from s in _context.Authors
+            ViewBag.Books = from s in _context.Authors
                               join e in _context.BookAuthors on s.AuthorId equals e.AuthorId
                               join c in _context.Books on e.BookId equals c.BookId
                               where s.AuthorId == id
